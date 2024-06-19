@@ -1,0 +1,53 @@
+[versions]
+activity-compose = "1.9.0"
+agp = "8.3.2"
+coil-compose = "2.4.0"
+compose-bom = "2024.04.01"
+core-ktx = "1.13.0"
+datastore-preferences = "1.1.0"
+firebase-bom = "32.8.1"
+google-services = "4.4.1"
+kotlin-android = "1.9.23"
+lifecycle-runtime-ktx = "2.7.0"
+lifecycle-viewmodel-compose = "2.7.0"
+navigation-compose = "2.7.7"
+play-services-auth = "21.1.0"
+ui-tooling = "1.6.6"
+
+[libraries]
+# Core
+androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "activity-compose" }
+androidx-core-ktx = { module = "androidx.core:core-ktx", version.ref = "core-ktx" }
+# Data
+androidx-datastore-preferences = { module = "androidx.datastore:datastore-preferences", version.ref = "datastore-preferences" }
+# Lifecycle
+androidx-lifecycle-runtime-ktx = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycle-runtime-ktx" }
+androidx-lifecycle-viewmodel-compose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "lifecycle-viewmodel-compose" }
+# Navigation
+androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigation-compose" }
+# Compose
+androidx-compose-bom = { module = "androidx.compose:compose-bom", version.ref = "compose-bom" }
+androidx-ui = { module = "androidx.compose.ui:ui" }
+androidx-ui-graphics = { module = "androidx.compose.ui:ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling", version.ref = "ui-tooling" }
+androidx-ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview" }
+androidx-material3 = { module = "androidx.compose.material3:material3" }
+# Firebase
+firebase-analytics-ktx = { module = "com.google.firebase:firebase-analytics-ktx" }
+firebase-auth-ktx = { module = "com.google.firebase:firebase-auth-ktx" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebase-bom" }
+firebase-database-ktx = { module = "com.google.firebase:firebase-database-ktx" }
+firebase-storage-ktx = { module = "com.google.firebase:firebase-storage-ktx" }
+play-services-auth = { module = "com.google.android.gms:play-services-auth", version.ref = "play-services-auth" }
+# 3-rd party
+coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coil-compose" }
+
+[plugins]
+com-android-application = { id = "com.android.application", version.ref = "agp" }
+org-jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin-android" }
+com-google-gms-google-services = { id = "com.google.gms.google-services", version.ref = "google-services" }
+
+[bundles]
+core = ["androidx-activity-compose", "androidx-core-ktx"]
+compose = ["androidx-ui", "androidx-ui-graphics", "androidx-ui-tooling-preview", "androidx-material3"]
+firebase = ["firebase-analytics-ktx", "firebase-auth-ktx", "firebase-database-ktx", "firebase-storage-ktx"]

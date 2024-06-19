@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  main offset  -->
+    <dimen name="offset_2">2.dp</dimen>
+    <dimen name="offset_4">4.dp</dimen>
+    <dimen name="offset_8">8.dp</dimen>
+    <dimen name="offset_16">16.dp</dimen>
+    <dimen name="offset_20">20.dp</dimen>
+    <dimen name="offset_24">24.dp</dimen>
+    <dimen name="offset_32">32.dp</dimen>
+    <dimen name="offset_48">48.dp</dimen>
+    <dimen name="offset_64">64.dp</dimen>
+    <!--  custom offset  -->
+    <dimen name="date_card_width">45.dp</dimen>
+    <dimen name="button_height">54.dp</dimen>
+    <dimen name="date_card_height">69.dp</dimen>
+    <dimen name="menu_item_width">124.dp</dimen>
+    <dimen name="image_big">136.dp</dimen>
+    <dimen name="large_ellipse">142.dp</dimen>
+</resources>

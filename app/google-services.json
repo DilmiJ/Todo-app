@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1097689850055",
+    "project_id": "day-task-2023",
+    "storage_bucket": "day-task-2023.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097689850055:android:122779bfafedb22af3dee2",
+        "android_client_info": {
+          "package_name": "com.example.daytask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097689850055-ogtvjlev3ro5uvlji6cm9rsersijeoru.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.daytask",
+            "certificate_hash": "a789e505c817a122ea906ea6eaa3d48b3a30ab18"
+          }
+        },
+        {
+          "client_id": "1097689850055-vtg3q678f856r7815kgmmofb704rd640.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtznsArfFSbim9KJzjPLChV65fNSp96NI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1097689850055-vtg3q678f856r7815kgmmofb704rd640.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
